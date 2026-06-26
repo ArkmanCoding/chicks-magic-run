@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Chick's Magic Run</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameWrapper">
+        <!-- Game Canvas -->
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+
+        <!-- HUD -->
+        <div id="hud">
+            <div id="hudScore">0</div>
+            <div id="hudBest">🏆 0</div>
+            <div id="hudDiamonds">
+                <span class="hud-diamond-icon"></span> <span id="diamondCountLabel">0</span>
+            </div>
+        </div>
+
+        <!-- Restart Button -->
+        <button id="restartBtn" class="hidden">↻ بازی دوباره</button>
+
+        <!-- Reset Best Record Button -->
+        <button id="resetBestBtn">🗑️ حذف امتیاز</button>
+    </div>
+
+    <footer style="
+    position: fixed;
+    color: #03030352;" dir="auto">ساخته شده توسط Turkman_Dev *ادیب*</footer>
+
+    <script src="./script.js">
+    </script>
+</body>
+</html>
